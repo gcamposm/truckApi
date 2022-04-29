@@ -21,3 +21,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# another files to ignore
+db/schema.rb
