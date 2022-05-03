@@ -39,7 +39,7 @@ class TrucksController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_truck
-      @truck = Truck.find(params[:id])
+      @truck = Truck.find_by(id: params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
