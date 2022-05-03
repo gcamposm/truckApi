@@ -82,4 +82,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Will be change when upload to production
+  config.api_endpoint = 'http://localhost:3000'
 end
